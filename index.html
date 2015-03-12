@@ -20,7 +20,10 @@ var hora = fecha.getHours();
 	if(hora >= 12 && hora <19 ){
 		$("body").addClass("tarde");
 	}
-	if(hora >= 19 && hora <6 ){
+	if(hora >= 19 && hora <=24 ){
+		$("body").addClass("noche");
+	}
+	if(hora >= 1 && hora <6 ){
 		$("body").addClass("noche");
 	}
  });
