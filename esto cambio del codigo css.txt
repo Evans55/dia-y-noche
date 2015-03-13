@@ -1,0 +1,10 @@
+en la linea donde esta .ui-body-c, .ui-dialog.ui-overlay-c
+
+
+background-image:-webkit-gradient(linear,left top,left bottom,from(#eee),to(#ddd));
+background-image:-webkit-linear-gradient(#eee,#ddd);
+background-image:-moz-linear-gradient(#eee,#ddd);
+background-image:-ms-linear-gradient(#eee,#ddd);
+background-image:-o-linear-gradient(#eee,#ddd);
+background-image:linear-gradient(#eee,#ddd);
+background:#f0f0f0;
